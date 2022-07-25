@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import logo from '../assets/pawprint.png'
+import logo from '../assets/lie-down.png'
 
 const NavBar = () => {
     const [ nav, setNav ] = useState(false)
@@ -10,7 +10,8 @@ const NavBar = () => {
         <div className='w-screen h-[80px] z-10 bg-silver-100 fixed drop-shadow-lg'>
             <div className='px-2 flex justify-between items-center w-full h-full'>
                 <div className='flex items-center'>
-                    <h1 className=' lg:text-3xl font-bold mr-8 md:text-2xl sm:text-4xl text-center' >BLACK HILLS DOGOS</h1>
+                    <img src={logo} alt='Black Hills Dogos Logo'className='hidden md:flex w-10 h-[40px] mr-3' />
+                    <h1 className=' lg:text-3xl font-bold mr-8 ml-2 md:text-xl sm:text-4xl text-4xl text-center' >BLACK HILLS DOGOS</h1>
                     <ul className='hidden md:flex'>
                         <li>Home</li>
                         <li>About</li>
