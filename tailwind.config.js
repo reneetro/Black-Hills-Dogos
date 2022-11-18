@@ -8,6 +8,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       'green': '#26530F',
+      'light-green': '#387d15',
       'silver': {
         100: '#C5C5C5',
         200: '#A5A5A5'
