@@ -50,8 +50,8 @@ const NavBar = () => {
                 <li className='border-b-2 border-silver-200 w-full text-left'><Link to="/shop">Shop Acessories</Link></li>
                 <li className='border-b-2 border-silver-200 w-full text-left'><Link to="/contact">Contact</Link></li>
                 <div className='flex flex-col my-4'>
-                    <button className='bg-transparent text-green border-green mb-4 px-7 py-3'><Link to="/signin">Sign In</Link></button>
-                    <button className=' px-7 py-3 text-silver-100'><Link to="/signup">Sign Up</Link></button>
+                    <Link to="/signin"><button className='w-full bg-transparent text-green border-green mb-4 px-7 py-3'>Sign In</button></Link>
+                    <Link to="/signup"><button className='w-full px-7 py-3 text-silver-100'>Sign Up</button></Link>
                 </div>
             </ul>
             <Outlet />
