@@ -1,6 +1,7 @@
 {
   "name": "black-hills-dogs",
   "version": "0.1.0",
+  "homepage": "http://localhost/",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.6",

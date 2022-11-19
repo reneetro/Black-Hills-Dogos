@@ -32,9 +32,9 @@ const NavBar = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='hidden lg:flex pr-4' >
-                    <button className='border-none bg-transparent text-black mr-4 px-7'><Link to="/signin">Sign In</Link></button>
-                    <button className=' px-7 py-3'><Link to="/signup">Sign Up</Link></button>
+                <div className='hidden lg:flex mt-3 pr-4' >
+                    <Link to="/signin"><button className='bg-transparent text-green mb-4 px-7 py-3'>Sign In</button></Link>
+                    <Link to="/signup"><button className=' px-7 py-3'>Sign Up</button></Link>
                 </div>
                 <div className='lg:hidden' onClick={() => {
                     handleClick();
